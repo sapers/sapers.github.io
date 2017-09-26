@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Scada');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Forum');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
+@import url('https://fonts.googleapis.com/css?family=Play|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body {
+    background-image: url("../images/text.png");
+
+}
+header {
+    background-blend-mode: multiply;
+    background-image: url("../images/hero.png");
+    color: #fefefe;
+    background-size: cover;
+    background-position: center center;
+   background-color: rgba(0,0,0,0.1);
+
+}
+p {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+a:hover{
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #d21927;
+}
+
+h1 {
+
+    font-size: 40px;
+}
+h2 {
+    font-size: 35px;
+}
+
+h1,h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #123154;
+}
+h3 {
+    text-align: center;
+}
+#logo_nav {
+    padding-top: 20px;
+}
+#midnav {
+    color: #123154;
+    padding-right: 70px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+@media (max-width: 768px){
+    h1 {
+        padding-top: 5vh;
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .button1 {
+        font-size: 4px;
+    }
+}
+@media (min-width: 768px) {
+    .btn{
+        font-size: 25px;
+    }
+    #button1 {
+        padding-top: 100px;
+        margin-top: 130px;
+    }
+    header {
+        background-attachment: fixed;
+    }
+    #text3 {
+        margin-top: 19vh;
+    }
+}
+#caption3 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+.navbar-default {
+    border: none;
+    background: transparent;
+}
+.navbar-default .navbar-brand {
+    font-family: 'Russo One', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-family: 'Russo One', sans-serif;
+
+}
+
+.btn {
+    font-family: 'Russo One', sans-serif;
+    border-radius: 1px;
+}
+#button2 {
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.button2 {
+    margin-top: 20px;
+}
+.button3 {
+    margin-top: 20px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+a {
+    color: #123154;
+}
+.head1 {
+    padding-top: 100px;
+}
+.head2 {
+    padding-top: 15px;
+}
